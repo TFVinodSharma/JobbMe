@@ -1,0 +1,179 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/texture"
+    tools:context="tris.fragments.FinalJobSeekerDetails">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Additional Details"
+        android:padding="10dp"
+        android:textSize="@dimen/textheading"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Work Experience :"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textSize="@dimen/textheading"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edittextboundary"
+            android:id="@+id/workexp"
+            >
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Key Skills :"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textSize="@dimen/textheading"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="@dimen/text"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="110dp"
+            android:background="@drawable/edittextboundary"
+            android:id="@+id/edittextcompany"
+            >
+
+        </EditText>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salary Expectation :"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textSize="@dimen/textheading"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="@dimen/text"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edittextboundary"
+            android:id="@+id/edittextctc"
+            >
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Additional Information :"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textSize="@dimen/textheading"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text"
+            android:textStyle="bold"
+            android:gravity="top"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edittextboundary"
+            android:id="@+id/jobprofession"
+            tools:ignore="RtlCompat">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="@dimen/text"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Add Video ( Size of video must not exceed 10Mb and it must be about telling about yourself)
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="@dimen/text"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+/>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Upload Video"
+    android:textAllCaps="false"
+    android:background="@color/orange"
+    android:padding="10dp"
+    android:textColor="@color/white"
+    android:textSize="@dimen/text"
+    android:layout_gravity="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/submit"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:textSize="@dimen/text"
+            android:background="@color/indigo"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</LinearLayout>

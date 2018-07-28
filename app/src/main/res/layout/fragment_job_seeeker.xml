@@ -1,0 +1,373 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tris.fragments.JobSeeeker">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JOB"
+            android:layout_marginLeft="140dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/size"
+            android:textColor="@color/indigo"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ME"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/size"
+            android:textColor="@color/orange"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please fill your profile  "
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Percentage Completion"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextboundary"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/text"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/l1"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textStyle="normal"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/edittextboundary"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Job Type"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:paddingLeft="15dp"
+                android:paddingBottom="10dp"
+                style="@style/SpinnerTextViewItem"
+                android:background="@drawable/edittextboundary"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:id="@+id/spinner1" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/l2"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:src="@drawable/jobprovider"
+            android:alpha="1"
+            android:background="@drawable/squareedittext"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Image"
+            android:textSize="@dimen/text"
+            android:textColor="@color/black"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+-->
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Job Title"
+            android:padding="10dp"
+            android:textStyle="normal"
+            android:textSize="@dimen/text"
+            android:textColor="@color/black"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/spinner2"
+            android:layout_marginRight="10dp"
+            style="@style/SpinnerTextViewItem"
+            android:background="@drawable/edittextboundary">
+
+
+        </Spinner>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desired Job Location"
+        android:padding="10dp"
+        android:textSize="@dimen/textheading"
+        android:textStyle="normal"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="State"
+            android:textStyle="normal"
+            android:padding="10dp"
+            android:textSize="@dimen/text"
+            android:textColor="@color/black"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/spinner3"
+            style="@style/SpinnerTextViewItem"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/edittextboundary">
+
+
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:textStyle="normal"
+            android:padding="10dp"
+            android:textSize="@dimen/text"
+            android:textColor="@color/black"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/spinner4"
+            android:background="@drawable/edittextboundary"
+            android:layout_marginLeft="40dp"
+            style="@style/SpinnerTextViewItem"
+            android:layout_marginRight="10dp">
+
+
+        </Spinner>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Education :-"
+        android:padding="10dp"
+        android:textSize="@dimen/textheading"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College or School"
+                android:padding="10dp"
+                android:textStyle="normal"
+                android:textSize="@dimen/text"
+                android:textColor="@color/black"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittextboundary"
+                android:padding="10dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Degree"
+                android:padding="10dp"
+                android:textStyle="normal"
+                android:textSize="@dimen/text"
+                android:textColor="@color/black"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:background="@drawable/edittextboundary"
+                android:padding="10dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Any Other Achievement"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/text"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextboundary"
+        android:padding="10dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Any Other Achievvements....." />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text"
+        android:textStyle="normal"
+        android:text="Additional Education (If any, please specify)
+"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextboundary"
+        android:padding="10dp"
+        android:gravity="top"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:hint="Additional Information" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:background="@drawable/circle_background"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="@dimen/text"
+        android:id="@+id/next"
+        android:layout_marginRight="20dp"/>
+
+
+</LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

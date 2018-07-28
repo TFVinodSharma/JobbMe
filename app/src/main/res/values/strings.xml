@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">JOBBME</string>
+    <string name="title_activity_jobb_me_home">JobbMeHome</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="termamdcondition">Term &amp; Condition</string>
+    <string name="currentjob">Current Job &amp; Profession</string>
+    <string name="jobtitle">Job title &amp; Profession
+</string>
+
+    <string name="previousjobandprofession">Previous Job &amp; Profession</string>
+
+
+    <string name="employerandemployee">Employer and Employee of the month</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="congomsg">Congratulations, your profile has been completed.</string>
+</resources>
+

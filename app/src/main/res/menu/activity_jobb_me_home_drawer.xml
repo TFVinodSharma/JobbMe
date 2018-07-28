@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/myprofile"
+
+            android:title="My Profile" />
+        <item
+            android:id="@+id/jobexpert"
+            android:title="Job Expert" />
+        <item
+            android:id="@+id/Createresume"
+            android:title="Create Resume" />
+        <item
+            android:id="@+id/interviewquestion"
+            android:title="Interview Questions" />
+        <item
+            android:id="@+id/interviewvedios"
+
+            android:title="Interview Videos" />
+        <item
+            android:id="@+id/jobdiscussionform"
+            android:title="Job Discussion Form" />
+        <item
+            android:id="@+id/notification"
+            android:title="Notification" />
+
+
+        <item
+            android:id="@+id/employerreview"
+            android:title="Employer Review" />
+        <item
+            android:id="@+id/employerandemployeeofthemonth"
+
+            android:title="@string/employerandemployee" />
+        <item
+            android:id="@+id/testimonial"
+            android:title="Testimonial" />
+        <item
+            android:id="@+id/rateus"
+            android:title="Rate us" />
+        <item
+            android:id="@+id/otherapp"
+            android:title="Other Apps" />
+        <item
+            android:id="@+id/privacyandpoilcy"
+            android:title="Privacy and Policy" />
+        <item
+            android:id="@+id/termandcondition"
+            android:title="@string/termamdcondition" />
+
+
+
+    </group>
+
+<!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+-->
+
+</menu>

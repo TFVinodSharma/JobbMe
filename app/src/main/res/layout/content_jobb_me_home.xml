@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/texture"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="tris.jobme.JobbMeHome"
+    tools:showIn="@layout/app_bar_jobb_me_home">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:orientation="vertical"
+        android:id="@+id/mainlayout">
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/layout1"
+    android:visibility="visible">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JOB"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/size"
+            android:textColor="@color/indigo"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ME"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/size"
+            android:textColor="@color/orange"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearlayout1"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I am a Job Seeker"
+            android:textSize="@dimen/text"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_background"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:id="@+id/image1"
+            android:src="@drawable/jobseeker"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linear1"
+        android:visibility="visible"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I am a Job Provider"
+            android:gravity="center"
+            android:background="@drawable/circle_background"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/text"
+            android:textColor="@color/white"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:id="@+id/image2"
+            android:src="@drawable/jobprovider"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

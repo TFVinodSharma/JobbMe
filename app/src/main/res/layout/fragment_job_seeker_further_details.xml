@@ -1,0 +1,282 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/texture"
+    tools:context="tris.fragments.JobSeekerFurtherDetails">
+
+
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/currentjob"
+    android:padding="10dp"
+    android:textSize="@dimen/textheading"
+    android:textStyle="bold"
+    android:background="@color/colorPrimaryDark"
+    android:layout_marginTop="10dp"
+    android:textColor="@color/white"
+
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jobtitle"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textSize="@dimen/textheading"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edittextboundary"
+            android:id="@+id/spin"
+            >
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textSize="@dimen/textheading"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="@dimen/text"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/edittextboundary"
+            android:id="@+id/edittextcompany"
+            >
+
+        </EditText>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current CTC"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textSize="@dimen/textheading"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="@dimen/text"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="@drawable/edittextboundary"
+            android:id="@+id/edittextctc"
+            >
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Job/Professional Description :"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textSize="@dimen/textheading"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text"
+            android:textStyle="bold"
+            android:gravity="top"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edittextboundary"
+            android:id="@+id/jobprofession"
+            tools:ignore="RtlCompat">
+        </EditText>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/previousjobandprofession"
+        android:padding="10dp"
+        android:textSize="@dimen/textheading"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jobtitle"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textSize="@dimen/textheading"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edittextboundary"
+            android:id="@+id/spin1"
+            >
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textSize="@dimen/textheading"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="@dimen/text"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/edittextboundary"
+            android:id="@+id/edittextcompanyprevious"
+            >
+
+        </EditText>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current CTC"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textSize="@dimen/textheading"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="@dimen/text"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="@drawable/edittextboundary"
+            android:id="@+id/edittextctcprevious"
+            >
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Job/Professional Description :"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textSize="@dimen/textheading"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text"
+            android:textStyle="bold"
+            android:gravity="top"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edittextboundary"
+            android:id="@+id/jobprofessionprevious"
+            tools:ignore="RtlCompat">
+
+        </EditText>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:background="@drawable/circle_background"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:textSize="@dimen/text"
+            android:id="@+id/next1"
+            android:layout_marginRight="20dp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
